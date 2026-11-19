@@ -64,22 +64,22 @@ export default function Navbar() {
     <header className={`fixed inset-x-0 top-0 z-[500] transition-[background,backdrop-filter,border-color] duration-300 ${scrolled ? "border-b border-line bg-gallery/75 backdrop-blur-xl" : "border-b border-transparent"}`}>
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:bg-ink focus:px-3 focus:py-2 focus:text-gallery">Skip to content</a>
       <nav className="container-site flex h-16 items-center gap-6" aria-label="Main">
-        <Link href="/" className="font-serif text-[22px] tracking-[0.18em]" aria-label="Maison Veloce home">MAISON&nbsp;VELOCE</Link>
-        <ul className="ml-4 hidden gap-5 text-[12px] xl:flex">
+        <Link href="/" className="shrink-0 whitespace-nowrap font-serif text-[22px] tracking-[0.18em]" aria-label="Maison Veloce home">MAISON&nbsp;VELOCE</Link>
+        <ul className="ml-4 hidden gap-5 whitespace-nowrap text-[12px] min-[1360px]:flex">
           {LINKS.map(([l, h]) => (
             <li key={l}><Link href={h} className="text-ink/70 transition-colors hover:text-ink">{l}</Link></li>
           ))}
         </ul>
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex shrink-0 items-center gap-2">
           <ThemeToggle />
           <div className="hidden md:block"><CurrencyToggle /></div>
           <QuoteButton />
           <Link href="/booking" className="pill-dark hidden h-9 text-[12px] sm:inline-flex">Book a Viewing</Link>
-          <button className="pill-light h-9 px-3 xl:hidden" aria-expanded={menu} aria-controls="mobile-menu" onClick={() => setMenu(!menu)}>Menu</button>
+          <button className="pill-light h-9 px-3 min-[1360px]:hidden" aria-expanded={menu} aria-controls="mobile-menu" onClick={() => setMenu(!menu)}>Menu</button>
         </div>
       </nav>
       {menu && (
-        <div id="mobile-menu" className="border-t hair bg-gallery/95 backdrop-blur-xl xl:hidden">
+        <div id="mobile-menu" className="border-t hair bg-gallery/95 backdrop-blur-xl min-[1360px]:hidden">
           <ul className="container-site flex flex-col py-4 text-[15px]">
             {LINKS.map(([l, h]) => (
               <li key={l}><Link href={h} onClick={() => setMenu(false)} className="block border-b hair py-3">{l}</Link></li>

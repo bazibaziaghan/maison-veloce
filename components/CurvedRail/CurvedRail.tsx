@@ -53,7 +53,7 @@ export default function CurvedRail() {
   const hovered = hover ? posOf(hover) : undefined;
 
   return (
-    <section id="garage" aria-label="The Garage" className="relative border-t hair py-20 md:py-28">
+    <section id="garage" aria-label="The Garage" className="relative overflow-x-clip border-t hair py-20 md:py-28">
       <div className="container-site flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="label">02 — The Garage</p>
