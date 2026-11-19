@@ -1,0 +1,114 @@
+{
+  "mclaren-750s": [
+    {
+      "view": "hero",
+      "angle": 45
+    },
+    {
+      "view": "side",
+      "angle": 90
+    },
+    {
+      "view": "rear",
+      "angle": 135
+    }
+  ],
+  "mclaren-artura": [
+    {
+      "view": "hero",
+      "angle": 45
+    },
+    {
+      "view": "rear",
+      "angle": 135
+    }
+  ],
+  "bugatti-chiron-super-sport": [
+    {
+      "view": "hero",
+      "angle": 30
+    },
+    {
+      "view": "rear",
+      "angle": 135
+    }
+  ],
+  "bugatti-tourbillon": [
+    {
+      "view": "hero",
+      "angle": 30
+    },
+    {
+      "view": "side",
+      "angle": 90
+    },
+    {
+      "view": "rear",
+      "angle": 150
+    }
+  ],
+  "porsche-911-gt3-rs": [
+    {
+      "view": "hero",
+      "angle": 30
+    },
+    {
+      "view": "rear",
+      "angle": 225
+    }
+  ],
+  "porsche-taycan-turbo-gt": [
+    {
+      "view": "hero",
+      "angle": 45
+    },
+    {
+      "view": "rear",
+      "angle": 135
+    }
+  ],
+  "ferrari-sf90-stradale": [
+    {
+      "view": "hero",
+      "angle": 315
+    },
+    {
+      "view": "side",
+      "angle": 270
+    }
+  ],
+  "lamborghini-revuelto": [
+    {
+      "view": "hero",
+      "angle": 315
+    },
+    {
+      "view": "rear",
+      "angle": 135
+    }
+  ],
+  "rolls-royce-spectre": [
+    {
+      "view": "hero",
+      "angle": 20
+    },
+    {
+      "view": "side",
+      "angle": 90
+    },
+    {
+      "view": "rear",
+      "angle": 210
+    }
+  ],
+  "aston-martin-db12": [
+    {
+      "view": "hero",
+      "angle": 40
+    },
+    {
+      "view": "rear",
+      "angle": 150
+    }
+  ]
+}

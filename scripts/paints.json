@@ -1,0 +1,72 @@
+{
+  "mclaren-750s": [
+    {"id": "factory", "name": "Ceramic Grey", "hex": "#9DA3A6", "priceUSD": 0, "factory": true},
+    {"id": "papaya", "name": "Bespoke Papaya", "hex": "#E8710A", "priceUSD": 28400},
+    {"id": "volcano-red", "name": "Volcano Red", "hex": "#8E1B1E", "priceUSD": 9800},
+    {"id": "ludus-blue", "name": "Ludus Blue", "hex": "#1E4FA8", "priceUSD": 9800},
+    {"id": "onyx", "name": "Onyx Black", "hex": "#1A1A1C", "priceUSD": 4200}
+  ],
+  "mclaren-artura": [
+    {"id": "factory", "name": "Flux Green", "hex": "#8A9A3A", "priceUSD": 0, "factory": true},
+    {"id": "papaya", "name": "Papaya Spark", "hex": "#E8710A", "priceUSD": 7900},
+    {"id": "silica-white", "name": "Silica White", "hex": "#E9E9E6", "priceUSD": 3600},
+    {"id": "ember-grey", "name": "Ember Grey", "hex": "#4C4E52", "priceUSD": 3600},
+    {"id": "aurora-blue", "name": "Aurora Blue", "hex": "#2A3E8C", "priceUSD": 7900}
+  ],
+  "bugatti-chiron-super-sport": [
+    {"id": "factory", "name": "Glacier White", "hex": "#E6E8EA", "priceUSD": 0, "factory": true},
+    {"id": "french-racing-blue", "name": "French Racing Blue", "hex": "#1F3F8F", "priceUSD": 64000},
+    {"id": "nocturne", "name": "Nocturne Black", "hex": "#151517", "priceUSD": 48000},
+    {"id": "italian-red", "name": "Italian Red", "hex": "#A51618", "priceUSD": 64000},
+    {"id": "quartz-silver", "name": "Quartz Silver", "hex": "#A7AAAE", "priceUSD": 52000}
+  ],
+  "bugatti-tourbillon": [
+    {"id": "factory", "name": "Bleu Atlantique", "hex": "#8FAFC8", "priceUSD": 0, "factory": true},
+    {"id": "nocturne", "name": "Nocturne Black", "hex": "#151517", "priceUSD": 58000},
+    {"id": "rouge-ettore", "name": "Rouge Ettore", "hex": "#7E1416", "priceUSD": 74000},
+    {"id": "argent", "name": "Argent Atelier", "hex": "#C0C3C6", "priceUSD": 58000}
+  ],
+  "porsche-911-gt3-rs": [
+    {"id": "factory", "name": "Arctic Grey", "hex": "#8B9093", "priceUSD": 0, "factory": true},
+    {"id": "shark-blue", "name": "Shark Blue", "hex": "#1E6FB8", "priceUSD": 4800},
+    {"id": "guards-red", "name": "Guards Red", "hex": "#B5121B", "priceUSD": 0},
+    {"id": "python-green", "name": "Python Green", "hex": "#6FAF3A", "priceUSD": 4800},
+    {"id": "gt-silver", "name": "GT Silver", "hex": "#B9BCBE", "priceUSD": 2900},
+    {"id": "pts-oak", "name": "PTS Oak Green", "hex": "#3E4A3A", "priceUSD": 14000}
+  ],
+  "porsche-taycan-turbo-gt": [
+    {"id": "factory", "name": "Purple Sky", "hex": "#4B2FC2", "priceUSD": 0, "factory": true},
+    {"id": "frozen-blue", "name": "Frozen Blue", "hex": "#7FA9CF", "priceUSD": 3800},
+    {"id": "carmine", "name": "Carmine Red", "hex": "#A0161C", "priceUSD": 3800},
+    {"id": "ice-grey", "name": "Ice Grey", "hex": "#9A9EA2", "priceUSD": 1900},
+    {"id": "jet-black", "name": "Jet Black", "hex": "#16171A", "priceUSD": 1900}
+  ],
+  "ferrari-sf90-stradale": [
+    {"id": "factory", "name": "Rosso Corsa", "hex": "#C1121A", "priceUSD": 0, "factory": true},
+    {"id": "giallo", "name": "Giallo Modena", "hex": "#E8C21A", "priceUSD": 12500},
+    {"id": "blu-tour", "name": "Blu Tour de France", "hex": "#1E2F6E", "priceUSD": 12500},
+    {"id": "nero-daytona", "name": "Nero Daytona", "hex": "#141416", "priceUSD": 9200},
+    {"id": "argento", "name": "Argento Nürburgring", "hex": "#A6A9AC", "priceUSD": 9200}
+  ],
+  "lamborghini-revuelto": [
+    {"id": "factory", "name": "Bianco Monocerus", "hex": "#E9E8EC", "priceUSD": 0, "factory": true},
+    {"id": "arancio", "name": "Arancio Apodis", "hex": "#E2560F", "priceUSD": 18000},
+    {"id": "verde", "name": "Verde Mantis", "hex": "#5FBF2A", "priceUSD": 18000},
+    {"id": "giallo", "name": "Giallo Inti", "hex": "#F0C21A", "priceUSD": 18000},
+    {"id": "grigio", "name": "Grigio Telesto", "hex": "#6D7176", "priceUSD": 9600}
+  ],
+  "rolls-royce-spectre": [
+    {"id": "factory", "name": "Jubilee Silver", "hex": "#55585C", "priceUSD": 0, "factory": true},
+    {"id": "salamanca", "name": "Salamanca Blue", "hex": "#1E2C4E", "priceUSD": 22000},
+    {"id": "arctic", "name": "Arctic White", "hex": "#ECECEA", "priceUSD": 14000},
+    {"id": "tempest", "name": "Tempest Grey", "hex": "#8C9196", "priceUSD": 14000},
+    {"id": "bespoke-plum", "name": "Bespoke Plum", "hex": "#5A1F4A", "priceUSD": 46000}
+  ],
+  "aston-martin-db12": [
+    {"id": "factory", "name": "Lunar White Silver", "hex": "#A9ACAE", "priceUSD": 0, "factory": true},
+    {"id": "racing-green", "name": "Aston Martin Racing Green", "hex": "#1F4A35", "priceUSD": 6400},
+    {"id": "podium-green", "name": "Podium Green", "hex": "#2E6B4E", "priceUSD": 6400},
+    {"id": "iridescent", "name": "Iridescent Emerald", "hex": "#3C7A6E", "priceUSD": 11800},
+    {"id": "onyx", "name": "Onyx Black", "hex": "#151517", "priceUSD": 3200}
+  ]
+}

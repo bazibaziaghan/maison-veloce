@@ -1,0 +1,85 @@
+{
+  "aston-martin-db12": [
+    "detail-1",
+    "hero",
+    "interior-1",
+    "rear"
+  ],
+  "bugatti-chiron-super-sport": [
+    "alt",
+    "detail-1",
+    "hero",
+    "rear"
+  ],
+  "bugatti-tourbillon": [
+    "detail-1",
+    "detail-2",
+    "hero",
+    "rear",
+    "side"
+  ],
+  "ferrari-sf90-stradale": [
+    "detail-1",
+    "detail-2",
+    "hero",
+    "interior-1",
+    "side"
+  ],
+  "lamborghini-revuelto": [
+    "hero",
+    "rear"
+  ],
+  "mclaren-750s": [
+    "hero",
+    "interior-1",
+    "interior-2",
+    "rear",
+    "side"
+  ],
+  "mclaren-artura": [
+    "detail-1",
+    "hero",
+    "interior-1",
+    "interior-2",
+    "rear"
+  ],
+  "porsche-911-gt3-rs": [
+    "detail-1",
+    "hero",
+    "rear"
+  ],
+  "porsche-taycan-turbo-gt": [
+    "alt",
+    "detail-1",
+    "hero",
+    "rear"
+  ],
+  "rolls-royce-spectre": [
+    "detail-1",
+    "detail-2",
+    "hero",
+    "interior-1",
+    "interior-2",
+    "rear",
+    "side"
+  ],
+  "parts": [
+    "caliper-photo",
+    "ecu-photo",
+    "engine-v12",
+    "engine-v8",
+    "engine-w16",
+    "exhaust",
+    "gearbox",
+    "paint-gun",
+    "steering",
+    "turbo",
+    "wheel"
+  ],
+  "workshop": [
+    "workshop-1",
+    "workshop-2",
+    "workshop-4",
+    "workshop-5"
+  ]
+}

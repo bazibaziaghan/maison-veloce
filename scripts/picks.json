@@ -1,0 +1,491 @@
+{
+  "mclaren-750s": [
+    {
+      "title": "File:McLaren 750S.jpg",
+      "role": "hero",
+      "file": "hero.jpg",
+      "erase": [
+        [
+          0.88,
+          0,
+          1,
+          0.12
+        ],
+        [
+          0,
+          0,
+          0.04,
+          0.5
+        ]
+      ]
+    },
+    {
+      "title": "File:McLaren 750S Spider MYLE Festival 2025 DSC 9509 (cropped).jpg",
+      "role": "side",
+      "file": "side.jpg"
+    },
+    {
+      "title": "File:McLaren 750S Spider MYLE Festival 2025 DSC 9513 (cropped).jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "erase": [
+        [
+          0.88,
+          0,
+          1,
+          0.3
+        ],
+        [
+          0.44,
+          0,
+          0.6,
+          0.14
+        ]
+      ]
+    },
+    {
+      "title": "File:McLaren 750S Spider MYLE Festival 2025 DSC 9502.jpg",
+      "role": "interior-1",
+      "file": "interior-1.jpg"
+    },
+    {
+      "title": "File:Interior of a McLaren 750S (Japanese specification).jpg",
+      "role": "interior-2",
+      "file": "interior-2.jpg"
+    }
+  ],
+  "mclaren-artura": [
+    {
+      "title": "File:McLaren Artura IMG 0529.jpg",
+      "role": "hero",
+      "file": "hero.jpg",
+      "blur": [
+        [
+          0.07,
+          0.64,
+          0.26,
+          0.78
+        ]
+      ]
+    },
+    {
+      "title": "File:McLaren Artura IMG 0527.jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "erase": [
+        [
+          0.6,
+          0,
+          1,
+          0.27
+        ],
+        [
+          0.975,
+          0,
+          1,
+          1
+        ],
+        [
+          0.93,
+          0.2,
+          1,
+          0.4
+        ]
+      ],
+      "blur": [
+        [
+          0.83,
+          0.5,
+          0.97,
+          0.6
+        ]
+      ]
+    },
+    {
+      "title": "File:2024 McLaren Artura 3.jpg",
+      "role": "interior-1",
+      "file": "interior-1.jpg"
+    },
+    {
+      "title": "File:2024 McLaren Artura 5.jpg",
+      "role": "interior-2",
+      "file": "interior-2.jpg"
+    },
+    {
+      "title": "File:McLaren Artura McLaren Orange (21).jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    }
+  ],
+  "bugatti-chiron-super-sport": [
+    {
+      "title": "File:2021 Bugatti Chiron Super Sport.jpg",
+      "role": "hero",
+      "file": "hero.jpg",
+      "blur": [
+        [
+          0.03,
+          0.5,
+          0.1,
+          0.66
+        ]
+      ]
+    },
+    {
+      "title": "File:Bugatti Chiron Super Sport.jpg",
+      "role": "alt",
+      "file": "alt.jpg",
+      "blur": [
+        [
+          0.02,
+          0.5,
+          0.08,
+          0.67
+        ]
+      ]
+    },
+    {
+      "title": "File:2021 Bugatti Chiron Super Sport 8.0 Rear.jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "blur": [
+        [
+          0.74,
+          0.5,
+          0.88,
+          0.61
+        ]
+      ],
+      "erase": [
+        [
+          0.5,
+          0,
+          0.95,
+          0.13
+        ]
+      ]
+    },
+    {
+      "title": "File:Int\u00e9rieur Bugatti Chiron Carbone.jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    }
+  ],
+  "bugatti-tourbillon": [
+    {
+      "title": "File:Bugatti Tourbillon - 01.jpg",
+      "role": "hero",
+      "file": "hero.jpg"
+    },
+    {
+      "title": "File:Bugatti Tourbillon - 03.jpg",
+      "role": "side",
+      "file": "side.jpg"
+    },
+    {
+      "title": "File:Bugatti Tourbillon - 02.jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "erase": [
+        [
+          0.35,
+          0,
+          0.5,
+          0.16
+        ]
+      ]
+    },
+    {
+      "title": "File:2024 Bugatti Tourbillon 8.jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    },
+    {
+      "title": "File:2024 Bugatti Tourbillon 11.jpg",
+      "role": "detail-2",
+      "file": "detail-2.jpg"
+    }
+  ],
+  "porsche-911-gt3-rs": [
+    {
+      "title": "File:Porsche 911 992 GT3 RS (39154).jpg",
+      "role": "hero",
+      "file": "hero.jpg",
+      "erase": [
+        [
+          0.87,
+          0,
+          1,
+          0.42
+        ]
+      ],
+      "blur": [
+        [
+          0.7,
+          0.6,
+          0.88,
+          0.73
+        ]
+      ]
+    },
+    {
+      "title": "File:2023 Porsche 911 992 GT3 RS (55643).jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "blur": [
+        [
+          0.15,
+          0.5,
+          0.3,
+          0.68
+        ],
+        [
+          0.05,
+          0.33,
+          0.17,
+          0.45
+        ]
+      ]
+    },
+    {
+      "title": "File:2023 Porsche 911 992 GT3 RS (26312).jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    }
+  ],
+  "porsche-taycan-turbo-gt": [
+    {
+      "title": "File:2025 Porsche Taycan Turbo GT - 01.jpg",
+      "role": "hero",
+      "file": "hero.jpg"
+    },
+    {
+      "title": "File:2025 Porsche Taycan Turbo GT.png",
+      "role": "alt",
+      "file": "alt.jpg"
+    },
+    {
+      "title": "File:Porsche 9J1.2 Taycan Turbo GT Purple Sky Metallic (6).jpg",
+      "role": "rear",
+      "file": "rear.jpg"
+    },
+    {
+      "title": "File:2024 Porsche Taycan Turbo GT Weissach (12899).jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    }
+  ],
+  "ferrari-sf90-stradale": [
+    {
+      "title": "File:Ferrari SF90 Stradale (7LA-173H).jpg",
+      "role": "hero",
+      "file": "hero.jpg",
+      "erase": [
+        [
+          0.78,
+          0.15,
+          1,
+          0.42
+        ],
+        [
+          0,
+          0.15,
+          0.05,
+          0.42
+        ]
+      ]
+    },
+    {
+      "title": "File:Ferrari SF90 Stradale Washington DC Metro Area, USA.jpg",
+      "role": "side",
+      "file": "side.jpg"
+    },
+    {
+      "title": "File:Ferrari SF90, BAS 24, Brussels (P1170503-RR).jpg",
+      "role": "interior-1",
+      "file": "interior-1.jpg"
+    },
+    {
+      "title": "File:Beelitz-Heilst\u00e4tten 20261018 Ferrari SF90 Stradale 03.jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    },
+    {
+      "title": "File:Beelitz-Heilst\u00e4tten 20261018 Ferrari SF90 Stradale 05.jpg",
+      "role": "detail-2",
+      "file": "detail-2.jpg"
+    }
+  ],
+  "lamborghini-revuelto": [
+    {
+      "title": "File:Lamborghini Revuelto Auto Zuerich 2023 1X7A1101.jpg",
+      "role": "hero",
+      "file": "hero.jpg"
+    },
+    {
+      "title": "File:Lamborghini Revuelto Auto Zuerich 2023 1X7A1103.jpg",
+      "role": "rear",
+      "file": "rear.jpg"
+    }
+  ],
+  "rolls-royce-spectre": [
+    {
+      "title": "File:Rolls-Royce Spectre Anthracite (7).jpg",
+      "role": "hero",
+      "file": "hero.jpg"
+    },
+    {
+      "title": "File:Rolls-Royce Spectre Anthracite (15).jpg",
+      "role": "side",
+      "file": "side.jpg"
+    },
+    {
+      "title": "File:Rolls-Royce Spectre Anthracite (16).jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "erase": [
+        [
+          0,
+          0.2,
+          0.07,
+          0.45
+        ],
+        [
+          0.88,
+          0.15,
+          1,
+          0.37
+        ]
+      ]
+    },
+    {
+      "title": "File:Rolls-Royce Spectre IAA 2023 1X7A0752.jpg",
+      "role": "interior-1",
+      "file": "interior-1.jpg"
+    },
+    {
+      "title": "File:Rolls-Royce Spectre IAA 2023 1X7A0753.jpg",
+      "role": "interior-2",
+      "file": "interior-2.jpg"
+    },
+    {
+      "title": "File:Rolls-Royce Spectre Anthracite (21).jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    },
+    {
+      "title": "File:Rolls-Royce Spectre Anthracite (22).jpg",
+      "role": "detail-2",
+      "file": "detail-2.jpg"
+    }
+  ],
+  "aston-martin-db12": [
+    {
+      "title": "File:2023 Aston Martin DB12.jpg",
+      "role": "hero",
+      "file": "hero.jpg"
+    },
+    {
+      "title": "File:Aston Martin DB12 1X7A1934.jpg",
+      "role": "rear",
+      "file": "rear.jpg",
+      "blur": [
+        [
+          0.79,
+          0.59,
+          0.92,
+          0.7
+        ]
+      ]
+    },
+    {
+      "title": "File:Aston Martin DB12 03.jpg",
+      "role": "interior-1",
+      "file": "interior-1.jpg"
+    },
+    {
+      "title": "File:Aston Martin DB12 04.jpg",
+      "role": "detail-1",
+      "file": "detail-1.jpg"
+    }
+  ],
+  "parts": [
+    {
+      "title": "File:Pirelli P Zero Tire with R-5X Wheel.jpg",
+      "role": "wheel",
+      "file": "wheel.jpg"
+    },
+    {
+      "title": "File:Ferrari F430 Challenge Brake.JPG",
+      "role": "caliper",
+      "file": "caliper.jpg"
+    },
+    {
+      "title": "File:Bugatti W16, Berlin (1X7A3942).jpg",
+      "role": "engine-w16",
+      "file": "engine-w16.jpg"
+    },
+    {
+      "title": "File:Example of a 3d model of a V12 engine by Quintin Cloud.jpg",
+      "role": "engine-v12",
+      "file": "engine-v12.jpg"
+    },
+    {
+      "title": "File:Bugatti W16, GIMS 2019, Le Grand-Saconnex (GIMS0966).jpg",
+      "role": "engine-v8",
+      "file": "engine-v8.jpg"
+    },
+    {
+      "title": "File:Hyundai 7 speed dual clutch transmission. Spielvogel.jpg",
+      "role": "gearbox",
+      "file": "gearbox.jpg"
+    },
+    {
+      "title": "File:Turbocharger 3.jpg",
+      "role": "turbo",
+      "file": "turbo.jpg"
+    },
+    {
+      "title": "File:IPE wiki 991GT3 fullsystem.jpg",
+      "role": "exhaust",
+      "file": "exhaust.jpg"
+    },
+    {
+      "title": "File:D\u00fclmen, Wiesmann Sports Cars, Wiesmann Spyder Concept -- 2018 -- 9579.jpg",
+      "role": "steering",
+      "file": "steering.jpg"
+    },
+    {
+      "title": "File:Spray gun.webp",
+      "role": "paint-gun",
+      "file": "paint-gun.jpg"
+    },
+    {
+      "title": "File:1995 Oldsmobile 88 Royal control chip module.jpg",
+      "role": "ecu",
+      "file": "ecu.jpg"
+    }
+  ],
+  "workshop": [
+    {
+      "title": "File:Porsche (28314981829).jpg",
+      "role": "workshop-1",
+      "file": "workshop-1.jpg"
+    },
+    {
+      "title": "File:Eurospares-dismantling-supercars-workshop-v2.jpg",
+      "role": "workshop-2",
+      "file": "workshop-2.jpg"
+    },
+    {
+      "title": "File:Mechanic works on machine at an automotive service center.jpg",
+      "role": "workshop-4",
+      "file": "workshop-4.jpg"
+    },
+    {
+      "title": "File:Car Restoration Workshop (Unsplash).jpg",
+      "role": "workshop-5",
+      "file": "workshop-5.jpg"
+    }
+  ]
+}
