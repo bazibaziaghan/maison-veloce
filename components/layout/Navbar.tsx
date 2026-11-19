@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { CURRENCIES, type CurrencyCode } from "@/data/currency";
 import { useStore } from "@/lib/store";
 import ThemeToggle from "./ThemeToggle";
@@ -54,6 +54,14 @@ export function CurrencyToggle() {
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menu, setMenu] = useState(false);
+  const drawer = useRef<HTMLElement>(null);
+  useEffect(() => { drawer.current?.toggleAttribute("inert", !menu); }, [menu]);
+  useEffect(() => {
+    if (!menu) return;
+    const k = (e: KeyboardEvent) => e.key === "Escape" && setMenu(false);
+    window.addEventListener("keydown", k);
+    return () => window.removeEventListener("keydown", k);
+  }, [menu]);
   useEffect(() => {
     const on = () => setScrolled(window.scrollY > 24);
     on();
@@ -61,6 +69,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", on);
   }, []);
   return (
+    <>
     <header className={`fixed inset-x-0 top-0 z-[500] transition-[background,backdrop-filter,border-color] duration-300 ${scrolled ? "border-b border-line bg-gallery/75 backdrop-blur-xl" : "border-b border-transparent"}`}>
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:bg-ink focus:px-3 focus:py-2 focus:text-gallery">Skip to content</a>
       <nav className="container-site flex h-16 items-center gap-6" aria-label="Main">
@@ -78,16 +87,36 @@ export default function Navbar() {
           <button className="pill-light h-9 px-3 min-[1360px]:hidden" aria-expanded={menu} aria-controls="mobile-menu" onClick={() => setMenu(!menu)}>Menu</button>
         </div>
       </nav>
-      {menu && (
-        <div id="mobile-menu" className="border-t hair bg-gallery/95 backdrop-blur-xl min-[1360px]:hidden">
-          <ul className="container-site flex flex-col py-4 text-[15px]">
-            {LINKS.map(([l, h]) => (
-              <li key={l}><Link href={h} onClick={() => setMenu(false)} className="block border-b hair py-3">{l}</Link></li>
-            ))}
-            <li className="pt-4"><CurrencyToggle /></li>
-          </ul>
-        </div>
-      )}
     </header>
+
+    {/* side drawer menu */}
+    <div
+      aria-hidden
+      onClick={() => setMenu(false)}
+      className={`fixed inset-0 z-[590] bg-ink/25 backdrop-blur-[2px] transition-opacity duration-300 min-[1360px]:hidden ${menu ? "opacity-100" : "pointer-events-none opacity-0"}`}
+    />
+    <aside
+      id="mobile-menu"
+      aria-label="Menu"
+      aria-hidden={!menu}
+      ref={drawer}
+      data-lenis-prevent
+      className={`fixed bottom-0 right-0 top-0 z-[600] flex w-[min(320px,86vw)] flex-col border-l hair bg-gallery shadow-2xl transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)] min-[1360px]:hidden ${menu ? "translate-x-0" : "translate-x-full"}`}
+    >
+      <div className="flex items-center border-b hair px-6 py-4">
+        {/* only when the navbar hides its own currency switch (phones) */}
+        <div className="md:hidden"><CurrencyToggle /></div>
+        <button onClick={() => setMenu(false)} aria-label="Close menu" className="ml-auto text-[24px] leading-none text-meta hover:text-ink">×</button>
+      </div>
+      <ul className="flex flex-col overflow-y-auto px-6 py-2 text-[15px]">
+        {LINKS.map(([l, h]) => (
+          <li key={l}><Link href={h} onClick={() => setMenu(false)} className="block border-b hair py-3.5 hover:text-racing">{l}</Link></li>
+        ))}
+      </ul>
+      <div className="mt-auto px-6 pb-6 sm:hidden">
+        <Link href="/booking" onClick={() => setMenu(false)} className="pill-dark w-full justify-center">Book a Viewing</Link>
+      </div>
+    </aside>
+    </>
   );
 }
