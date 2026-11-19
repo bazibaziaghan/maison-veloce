@@ -9,3 +9,6 @@ assets-raw
 *.log
 *.tsbuildinfo
 next-env.d.ts.bak
+
+.vercel
+.env*
