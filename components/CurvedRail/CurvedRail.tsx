@@ -19,7 +19,7 @@ const PRICE_STEPS = [300000, 500000, 1000000, MAX_PRICE];
 
 const statusColour: Record<Car["status"], string> = { New: "text-ink", "Pre-owned": "text-ink", Reserved: "text-racing", Sold: "text-meta" };
 
-export default function CurvedRail() {
+export default function CurvedRail({ standalone = false }: { standalone?: boolean }) {
   const router = useRouter();
   const mobile = useMediaQuery("(max-width: 767px)");
   const geo = mobile ? MOBILE : DESKTOP;
@@ -53,11 +53,11 @@ export default function CurvedRail() {
   const hovered = hover ? posOf(hover) : undefined;
 
   return (
-    <section id="garage" aria-label="The Garage" className="relative overflow-x-clip border-t hair py-20 md:py-28">
+    <section id="garage" aria-label="The Garage" className={`relative overflow-x-clip ${standalone ? "pb-20 pt-28 md:pt-32" : "border-t hair py-20 md:py-28"}`}>
       <div className="container-site flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="label">02 — The Garage</p>
-          <h2 className="display mt-3 text-[48px] md:text-[80px]">On the rail.</h2>
+          <p className="label">The Garage</p>
+          {standalone ? <h1 className="display mt-3 text-[56px] md:text-[96px]">On the rail.</h1> : <h2 className="display mt-3 text-[48px] md:text-[80px]">On the rail.</h2>}
           <p className="mt-3 max-w-md text-[14px] text-meta">Every car in residence, hung like a collection. Hover to bring one forward; click to enter its studio.</p>
         </div>
         {/* filters */}

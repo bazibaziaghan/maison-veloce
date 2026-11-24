@@ -6,9 +6,9 @@ import { useStore } from "@/lib/store";
 import ThemeToggle from "./ThemeToggle";
 
 const LINKS = [
-  ["Showroom", "/#showroom"],
-  ["The Garage", "/#garage"],
-  ["All Cars", "/#all-cars"],
+  ["Showroom", "/"],
+  ["The Garage", "/garage"],
+  ["All Cars", "/cars"],
   ["Atelier", "/atelier"],
   ["Price List", "/price-list"],
   ["Heritage", "/#heritage"],

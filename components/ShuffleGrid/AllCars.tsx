@@ -38,13 +38,13 @@ export function CarCard({ car }: { car: Car }) {
   );
 }
 
-export default function AllCars() {
+export default function AllCars({ standalone = false }: { standalone?: boolean }) {
   return (
-    <section id="all-cars" aria-label="All cars" className="border-t hair py-20 md:py-28">
+    <section id="all-cars" aria-label="All cars" className={standalone ? "pb-20 pt-28 md:pt-32" : "border-t hair py-20 md:py-28"}>
       <div className="container-site">
-        <p className="label">03 — All Cars</p>
+        <p className="label">All Cars</p>
         <div className="mb-8 mt-3 flex flex-wrap items-end justify-between gap-4">
-          <h2 className="display text-[48px] md:text-[80px]">Compare all ten.</h2>
+          {standalone ? <h1 className="display text-[56px] md:text-[96px]">Compare all ten.</h1> : <h2 className="display text-[48px] md:text-[80px]">Compare all ten.</h2>}
           <p className="max-w-sm text-[13px] text-meta">Re-order the collection instantly. Every figure is live in your chosen currency.</p>
         </div>
         <ShuffleGrid items={CARS} sorts={SORTS} getKey={(c) => c.slug} render={(c) => <CarCard car={c} />} label="Sort cars" />

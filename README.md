@@ -31,7 +31,9 @@ npm run process-images               # cutouts, normalise, shadows, paint varian
 
 | Route | What |
 |---|---|
-| `/` | Showroom Wheel (Mechanic 1) · The Garage rail (Mechanic 2) · All Cars grid (Mechanic 3) · Atelier teaser · Heritage |
+| `/` | Showroom Wheel (Mechanic 1) · links to The Garage, All Cars and the Atelier · Heritage |
+| `/garage` | The Garage — curved SVG rail (Mechanic 2) |
+| `/cars` | All Cars — shuffle grid (Mechanic 3) |
 | `/cars/[slug]` | Car Studio: Exterior spin · Interior · Disassemble · Specs · Ownership cost · finance / reserve / quote |
 | `/atelier` | Floating parts or grid of services, service panels with before/after · Diagnostic visualiser |
 | `/price-list` | Cars, parts and services; click any row for full specs and price |

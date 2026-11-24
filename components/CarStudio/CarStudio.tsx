@@ -54,7 +54,7 @@ export default function CarStudio({ car }: { car: Car }) {
   return (
     <div className="pt-20">
       <div className="container-site">
-        <nav aria-label="Breadcrumb" className="label py-4"><Link href="/#all-cars" className="hover:text-ink">All cars</Link> / {car.make}</nav>
+        <nav aria-label="Breadcrumb" className="label py-4"><Link href="/cars" className="hover:text-ink">All cars</Link> / {car.make}</nav>
         <div className="flex flex-col gap-6 border-b hair pb-6 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="label">{car.make} · {car.year} · {car.status}{car.mileage ? ` · ${car.mileage.toLocaleString()} km` : ""}</p>
