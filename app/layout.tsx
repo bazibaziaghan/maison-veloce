@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import Preloader from "@/components/layout/Preloader";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import QuoteDrawer from "@/components/QuoteDrawer/QuoteDrawer";
+import NewsletterPopup from "@/components/layout/NewsletterPopup";
 import { themeScript } from "@/lib/theme";
 
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <QuoteDrawer />
+        <NewsletterPopup />
       </body>
     </html>
   );
